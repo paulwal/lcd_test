@@ -14,9 +14,9 @@ int main (void)
 {
     lcd_initialize();
     _delay_ms(1000);
-    lcd_draw_string(5, 0, 0, "The lazy brown fox something something...");
-    lcd_draw_string(5, 2, 1, "The New York Times");
-    lcd_draw_string(5, 4, 2, "012345");
+    lcd_draw_string(5, 0, 0, "The lazy brown fox something something..."); // MS Sans Serif 8pt
+    lcd_draw_string(5, 2, 1, "The New York Times"); // Old English Text MT 11pt
+    lcd_draw_string(5, 4, 2, "012345"); // Impact 28pt
     _delay_ms(15000);
     lcd_clear_area(0, 0, 240, 8);
     lcd_power_down();
